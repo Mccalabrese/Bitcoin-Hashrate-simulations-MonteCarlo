@@ -23,6 +23,10 @@ Ten Selected Countries
 - Data obtained from the Cambridge Bitcoin index
 - Data sets to be used: https://ccaf.io/cbnsi/cbeci/mining_map
 
+Reasoning for data selection:
+- This source provided the most accurate and recent data of the 10 selected countries for bitcoin mining.
+
+
 #### Data Analysis Flow:
 - Retrieve historical hash rate data by country and market from APIs/CSV files (spanning three years).
 - Clean data, constructing frames detailing rates of change on both daily and monthly scales.
@@ -71,6 +75,18 @@ In many developing countries, Bitcoin mining represents an opportunity for econo
 - Conducted comprehensive statistical analyses, providing high-level summaries that highlight variances and standard deviations.
 - Utilized data visualization techniques, particularly PyViz, to create informative plots that overlay country-specific hash rates, offering a visual representation of the trends.
 - To enhance predictive insights into future hash rates, utilized Monte Carlo simulations, taking into account variables such as initial investments and energy consumption, thereby contributing to a more nuanced understanding of potential outcomes in the ever-fluctuating realm of cryptocurrency mining.
+#### Technology
+Technologies used:
+Pandas (data manipulation and analysis library for Python),
+Numpy (library for numerical operations in Python),
+Datetime (module in Python),
+Seaborn (data visualization library built on top of Matplotlib),
+Pathlib (path manipulation and file system operations),
+Hvplot (high-level plotting library for Python),
+MCSimulation via MCForecastTools,
+Matplotlib,
+Alpaca Trade API,
+Pytz (library, which allows working with time zones in Python)
 
 #### Visualization 
 Visual plots and graphs depicting the created code and research is uploaded in the repsotiory. Each one is labeled by country name. In addition to individual coutrny hash rate data visualitaions and predctive plots/graphs, there is a complied predictive visualtion of all countires combined. All predictive visuals are available for veiwing in the github repostiory. 
