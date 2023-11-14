@@ -1,6 +1,6 @@
 # Fintech Bootcamp Module 8: Project 1
 ## Project Title: Strategic Location Selection for Bitcoin Mining: Forecasting Global Crypto Markets with Country Hash Rates
-#### Abstract: 
+#### Executive Summary: 
 This project explores the predictive capabilities inherent in leveraging historical and present country hash rates to predict trends within the global cryptocurrency markets. As cryptocurrencies take center stage in the financial arena, comprehending the intricacies of their market dynamics is indispensable for investors, policymakers, and industry stakeholders seeking to make well-informed investment decisions and foresee market shifts.
 Through a thorough analysis of historical data and trends, our objective is to offer insights into how fluctuations in hash rates across various countries can act as indicators, contributing to the ability to forecast the overall performance of the cryptocurrency markets on a broader scale.
   
